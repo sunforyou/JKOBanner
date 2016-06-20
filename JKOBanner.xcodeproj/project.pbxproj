@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A438405D1CB0ED6E00D718BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A438405C1CB0ED6E00D718BF /* AppDelegate.swift */; };
+		A438405F1CB0ED6E00D718BF /* JKOViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A438405E1CB0ED6E00D718BF /* JKOViewController.swift */; };
+		A43840621CB0ED6E00D718BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A43840601CB0ED6E00D718BF /* Main.storyboard */; };
+		A43840641CB0ED6E00D718BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A43840631CB0ED6E00D718BF /* Assets.xcassets */; };
+		A43840671CB0ED6E00D718BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A43840651CB0ED6E00D718BF /* LaunchScreen.storyboard */; };
+		A438406F1CB0EDAB00D718BF /* JKOScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A438406E1CB0EDAB00D718BF /* JKOScrollView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A43840591CB0ED6E00D718BF /* JKOBanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JKOBanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A438405C1CB0ED6E00D718BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A438405E1CB0ED6E00D718BF /* JKOViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JKOViewController.swift; sourceTree = "<group>"; };
+		A43840611CB0ED6E00D718BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A43840631CB0ED6E00D718BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A43840661CB0ED6E00D718BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A43840681CB0ED6E00D718BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A438406E1CB0EDAB00D718BF /* JKOScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JKOScrollView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A43840561CB0ED6E00D718BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A43840501CB0ED6E00D718BF = {
+			isa = PBXGroup;
+			children = (
+				A438405B1CB0ED6E00D718BF /* JKOBanner */,
+				A438405A1CB0ED6E00D718BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A438405A1CB0ED6E00D718BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A43840591CB0ED6E00D718BF /* JKOBanner.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A438405B1CB0ED6E00D718BF /* JKOBanner */ = {
+			isa = PBXGroup;
+			children = (
+				A438405C1CB0ED6E00D718BF /* AppDelegate.swift */,
+				A438406E1CB0EDAB00D718BF /* JKOScrollView.swift */,
+				A438405E1CB0ED6E00D718BF /* JKOViewController.swift */,
+				A43840601CB0ED6E00D718BF /* Main.storyboard */,
+				A43840631CB0ED6E00D718BF /* Assets.xcassets */,
+				A43840651CB0ED6E00D718BF /* LaunchScreen.storyboard */,
+				A43840681CB0ED6E00D718BF /* Info.plist */,
+			);
+			path = JKOBanner;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A43840581CB0ED6E00D718BF /* JKOBanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A438406B1CB0ED6E00D718BF /* Build configuration list for PBXNativeTarget "JKOBanner" */;
+			buildPhases = (
+				A43840551CB0ED6E00D718BF /* Sources */,
+				A43840561CB0ED6E00D718BF /* Frameworks */,
+				A43840571CB0ED6E00D718BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JKOBanner;
+			productName = JKOBanner;
+			productReference = A43840591CB0ED6E00D718BF /* JKOBanner.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A43840511CB0ED6E00D718BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = sky;
+				TargetAttributes = {
+					A43840581CB0ED6E00D718BF = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = SCQ86T8B64;
+					};
+				};
+			};
+			buildConfigurationList = A43840541CB0ED6E00D718BF /* Build configuration list for PBXProject "JKOBanner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A43840501CB0ED6E00D718BF;
+			productRefGroup = A438405A1CB0ED6E00D718BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A43840581CB0ED6E00D718BF /* JKOBanner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A43840571CB0ED6E00D718BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A43840671CB0ED6E00D718BF /* LaunchScreen.storyboard in Resources */,
+				A43840641CB0ED6E00D718BF /* Assets.xcassets in Resources */,
+				A43840621CB0ED6E00D718BF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A43840551CB0ED6E00D718BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A438405F1CB0ED6E00D718BF /* JKOViewController.swift in Sources */,
+				A438405D1CB0ED6E00D718BF /* AppDelegate.swift in Sources */,
+				A438406F1CB0EDAB00D718BF /* JKOScrollView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A43840601CB0ED6E00D718BF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A43840611CB0ED6E00D718BF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A43840651CB0ED6E00D718BF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A43840661CB0ED6E00D718BF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A43840691CB0ED6E00D718BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A438406A1CB0ED6E00D718BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A438406C1CB0ED6E00D718BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JKOBanner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sky.JKOBanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A438406D1CB0ED6E00D718BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JKOBanner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sky.JKOBanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A43840541CB0ED6E00D718BF /* Build configuration list for PBXProject "JKOBanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A43840691CB0ED6E00D718BF /* Debug */,
+				A438406A1CB0ED6E00D718BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A438406B1CB0ED6E00D718BF /* Build configuration list for PBXNativeTarget "JKOBanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A438406C1CB0ED6E00D718BF /* Debug */,
+				A438406D1CB0ED6E00D718BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A43840511CB0ED6E00D718BF /* Project object */;
+}
